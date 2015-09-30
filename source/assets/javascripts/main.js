@@ -36,7 +36,7 @@
 jQuery(document).ready(function ($) {
     
 //=====swiper slider start========
-    var mySwiper = new Swiper ('.swiper-container', {
+    var mySwiper = new Swiper ('#swiper1', {
         // Optional parameters
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
         hashnav: true
     });
     
-    var mySwiper2 = new Swiper ('.swiper-container2', {
+    var mySwiper2 = new Swiper ('#swiper2', {
         // Optional parameters
         pagination: '.swiper-pagination',
         paginationClickable: '.swiper-pagination',
@@ -54,6 +54,38 @@ jQuery(document).ready(function ($) {
         spaceBetween: 30,
         loop: true,
         hashnav: true
+    });
+    var mySwiper3 = new Swiper ('#swiper3', {
+        // Optional parameters
+        // nextButton: '.swiper-button-next',
+        // prevButton: '.swiper-button-prev',
+        // spaceBetween: 30,
+        // slidesPerView: 2,
+        // loop: true
+        //hashnav: true
+        slidesPerView: 2,
+        nextButton: '#buttonNext3',
+        prevButton: '#buttonPrew3',
+        centeredSlides: true,
+        loop: true,
+        spaceBetween: 30
+    });
+    var mySwiper4 = new Swiper ('#swiper4', {
+        // Optional parameters
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 20,
+        slidesPerView: 2,
+        loopedSlides:2,
+        loop: true
+    });
+     var mySwiper5 = new Swiper ('#swiper5', {
+        // Optional parameters
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 30,
+        slidesPerView: 2,
+        loop: true
     });
     
     //  var mySwiper3 = new Swiper ('.swiper-container', {
