@@ -41,32 +41,24 @@ jQuery(document).ready(function ($) {
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         spaceBetween: 30,
-        loop: true,
-        hashnav: true
+        slidesPerView: 2,
+        loop: true
     });
     
     var mySwiper2 = new Swiper ('#swiper2', {
         // Optional parameters
-        pagination: '.swiper-pagination',
-        paginationClickable: '.swiper-pagination',
-        nextButton: '.swiper-button-next2',
-        prevButton: '.swiper-button-prev2',
-        spaceBetween: 30,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        spaceBetween: 10,
+        slidesPerView: 2,
         loop: true,
-        hashnav: true
     });
     var mySwiper3 = new Swiper ('#swiper3', {
         // Optional parameters
-        // nextButton: '.swiper-button-next',
-        // prevButton: '.swiper-button-prev',
-        // spaceBetween: 30,
-        // slidesPerView: 2,
-        // loop: true
-        //hashnav: true
         slidesPerView: 2,
         nextButton: '#buttonNext3',
         prevButton: '#buttonPrew3',
-        centeredSlides: true,
+        // centeredSlides: true,
         loop: true,
         spaceBetween: 30
     });
@@ -87,15 +79,6 @@ jQuery(document).ready(function ($) {
         slidesPerView: 2,
         loop: true
     });
-    
-    //  var mySwiper3 = new Swiper ('.swiper-container', {
-    //     // Optional parameters
-    //     nextButton: '.swiper-button-next',
-    //     prevButton: '.swiper-button-prev',
-    //     spaceBetween: 30,
-    //     loop: true,
-    //     hashnav: true
-    // });
 //=====swiper slider end========
   
 });    
