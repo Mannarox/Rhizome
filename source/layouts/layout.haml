@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    = partial :head
+  %body
+    .RHZMwrapper
+      = yield
+      = javascript_include_tag "x"
+      = javascript_include_tag "main"
+      = javascript_include_tag "swiper.min"
