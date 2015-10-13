@@ -50,12 +50,12 @@ jQuery(document).ready(function ($) {
         nextButton: '#swiperNext2',
         prevButton: '#swiperPrev2',
         spaceBetween: 10,
-        slidesPerView: 2,
+        slidesPerView: 1,
         loop: true,
     });
     var mySwiper3 = new Swiper ('#swiper3', { //slider 3
         // Optional parameters
-        slidesPerView: 2,
+        slidesPerView: 1,
         nextButton: '#swiperNext3',
         prevButton: '#swiperPrev3',
         // centeredSlides: true,
@@ -67,16 +67,8 @@ jQuery(document).ready(function ($) {
         nextButton: '#swiperNext4',
         prevButton: '#swiperPrev4',
         spaceBetween: 20,
-        slidesPerView: 2,
+        slidesPerView: 1,
         loopedSlides:2,
-        loop: true
-    });
-     var mySwiper5 = new Swiper ('#swiper5', { //slider 5
-        // Optional parameters
-        nextButton: '#swiperNext5',
-        prevButton: '#swiperPrev5',
-        spaceBetween: 30,
-        slidesPerView: 2,
         loop: true
     });
 //=====swiper slider end========
