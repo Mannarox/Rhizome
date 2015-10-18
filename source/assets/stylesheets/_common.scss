@@ -2,6 +2,7 @@ html, body, p{
   padding: 0px;
   margin: 0px;
 }
+
 q{
   font-style: italic;
   quotes: "\00ab" "\00bb";
@@ -28,10 +29,11 @@ a {
   padding: 0px !important;
 }
 .RHZMwrapper {
-  // background-color: #fff;
+  //background-color:#fff;
   font-family: $fontMain;
   padding-top: 30px;
   padding-bottom: 30px;
+  //padding-bottom:130px;
 }
 .article-header h1 {
   line-height: 1;
@@ -90,14 +92,22 @@ h2{
 // .bgColor{
 //   background-color: #eeeeee;
 // }
-.indentForImage{
-  margin-top:70px;
+.indent1{
+  margin-top:33px;
 }
-.indentForImage2{
-  margin-top:150px;
+.indent02{
+  margin-top:50px;
 }
-.indentForImage3{
-  margin-top:20px;
+.indent03{
+  margin-top:100px;
+}
+.scpecImage{
+  position:relative;
+  width:35%;
+  margin-left:15%;
+}
+.imagDjamvo{
+  margin-top:-50px;
 }
 .sliderText{
   font-size:1em;

@@ -21,3 +21,6 @@ Middleman Stater
 	cd PROJECT_NAME/.git
 
 
+Это статься ризомы
+---
+"Скай-Феррейра"
